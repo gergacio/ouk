@@ -19,7 +19,7 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-            Watermel<span className="text-[#004225]">◉</span>n
+            OUK
             <div className="font-extralight text-sm  text-gray-600">
               Handcrafted academic content.
             </div>
