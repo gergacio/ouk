@@ -12,16 +12,16 @@ export default async function NavBar() {
   const user = await stackServerApp.getUser();
 
   return (
-    <nav className="w-full border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
+    <nav className="w-full border-b bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50 my-3">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <Link
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-            OUK
-            <div className="font-extralight text-sm  text-gray-600">
-              Handcrafted academic content.
+             <span className="m-2 p-1 bg-[#004225] text-white border border-solid text-3xl">Ꙋ</span> OUK 
+            <div className="m-2 font-extralight text-sm  text-gray-600">
+             <p>Handcrafted academic content.</p>
             </div>
           </Link>
         </div>
