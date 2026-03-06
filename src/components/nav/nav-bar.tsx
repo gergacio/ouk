@@ -19,13 +19,15 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-            <span className="m-1 p-1 bg-[#004225] text-white border border-solid text-3xl">
+            <span className="m-2 p-2 bg-[#004225] text-white border border-solid text-3xl">
               Ꙋ
-            </span>{" "}
+            </span>
           </Link>
         </div>
         <div>
-          <p className="font-extrabold text-2xl">OUK</p>
+          <p className="m-2 p-2 font-extrabold text-shadow-black text-2xl">
+            OUK
+          </p>
         </div>
 
         <NavigationMenu>
