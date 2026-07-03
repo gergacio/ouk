@@ -19,14 +19,22 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-            <span className="m-2 p-2 bg-[#004225] text-white border border-solid text-3xl">
-              Ꙋ
+       
+
+
+                  <span className="m-2 p-2 bg-black text-black border border-solid text-3xl">  </span>
+            <span className="m-2 p-2 bg-[#FA003F] text-black border border-solid text-3xl">
+              
+              OUK UI
             </span>
           </Link>
+        
         </div>
+        
         <div>
-          <p className="m-2 p-2 font-extrabold text-shadow-black text-2xl">
-            OUK
+          <p className="m-3 p-2 font-extrabold text-shadow-black text-2xl">
+
+            
           </p>
         </div>
 

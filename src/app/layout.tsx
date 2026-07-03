@@ -34,8 +34,10 @@ export default function RootLayout({
         <StackProvider app={stackClientApp}>
           <StackTheme>
             <NavBar />
+            
 
             {children}
+
             <Footer />
           </StackTheme>
         </StackProvider>
