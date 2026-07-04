@@ -86,7 +86,7 @@ export default async function NavBar() {
      
            <p className="m-2 p-2 bg-[#FA003F] text-white border-solid text-l font-bold"></p>
                        <p className="m-2 p-2 bg-[#E85A2B] text-white border-solid text-l font-bold"></p>
-                            <p className="m-2 p-2 bg-[#E8E02B] text-white border-solid text-l font-bold"></p>
+
         
 
 
