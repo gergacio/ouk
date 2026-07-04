@@ -84,24 +84,17 @@ export default async function NavBar() {
        
       </div>
      
-           <p className="m-2 p-2 bg-black text-white border-solid text-l font-bold">
-
-
-              
-              
-Handritten notes.
-
-            </p>
-                     <p className="m-2 p-2 bg-black text-white border-solid text-l font-bold">
-
-               
+           <p className="m-2 p-2 bg-[#FA003F] text-white border-solid text-l font-bold"></p>
+                       <p className="m-2 p-2 bg-[#E85A2B] text-white border-solid text-l font-bold"></p>
+                            <p className="m-2 p-2 bg-[#E8E02B] text-white border-solid text-l font-bold"></p>
+        
 
 
               
               
 
 
-            </p>
+         
        
     </nav>
   );
