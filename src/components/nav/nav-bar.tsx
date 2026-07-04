@@ -22,23 +22,31 @@ export default async function NavBar() {
        
 
 
-                  <span className="m-2 p-2 bg-black text-black border border-solid text-3xl">  </span>
-            <span className="m-2 p-2 bg-[#FA003F] text-black border border-solid text-3xl">
+                  <span className="m-2 p-2 bg-[#E85A2B] text-[#F2F0EF] border border-solid text-3xl">  Ꙋ</span>
+
+
+            <span className="m-2 p-2 bg-[#E85A2B] text-[#F2F0EF] border border-solid text-3xl font-black">
               
-              OUK UI
+              
+              OUK UI 
             </span>
+    
+         
+            
           </Link>
         
-        </div>
         
-        <div>
-          <p className="m-3 p-2 font-extrabold text-shadow-black text-2xl">
-
-            
-          </p>
         </div>
+  
+    
+        <div>
+     
+        </div>
+   
+         
 
         <NavigationMenu>
+        
           <NavigationMenuList className="flex items-center gap-2">
             {user ? (
               <>
@@ -66,8 +74,18 @@ export default async function NavBar() {
               </>
             )}
           </NavigationMenuList>
+            
         </NavigationMenu>
+       
       </div>
+     
+           <p className="m-2 p-2 bg-[#E85A2B] text-[#F2F0EF] border border-solid text-3xl font-black">
+              
+              
+
+               <p>handwritten</p>
+            </p>
+       
     </nav>
   );
 }
