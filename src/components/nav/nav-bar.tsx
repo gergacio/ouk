@@ -22,11 +22,11 @@ export default async function NavBar() {
        
 
 
-                  <span className="m-2 p-2 bg-[#E85A2B] text-black border border-solid text-3xl">  Ꙋ</span>
+                  <span className="m-2 p-2 bg-black text-white border border-solid text-3xl">  Ꙋ</span>
 
 
 
-            <span className="m-2 p-2 bg-[#E85A2B] text-black border border-solid text-3xl font-black">
+            <span className="m-2 p-2 bg-black text-white border border-solid text-3xl font-black">
               
               
               OUK UI 
@@ -80,11 +80,13 @@ export default async function NavBar() {
        
       </div>
      
-           <p className="m-2 p-2 bg-[#E85A2B] text-black border border-solid text-xl">
+           <p className="m-2 p-2 bg-black text-white border border-solid text-xl">
+
               
               
 
-               <p>handwritten</p>
+               handwritten
+
             </p>
        
     </nav>
