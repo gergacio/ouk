@@ -7,6 +7,7 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { stackServerApp } from "@/stack/server";
+import logo from '../nav/logo.png'; 
 
 export default async function NavBar() {
   const user = await stackServerApp.getUser();
@@ -19,15 +20,21 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-       
+
+                <div>
+                
+             
+                </div>
+            
 
 
-                  <span className="m-2 p-2 bg-black text-white border border-solid text-2xl">  Ꙋ</span>
 
 
 
+                  <span className="m-2 p-2 bg-[#E85A2B] text-white border border-solid text-2xl">Ouk.</span> 
 
-                  <span className="m-2 p-2 bg-black text-white border border-solid text-2xl">OUK UI</span>
+                    <p>understanding knowledge</p>
+               
                   
 
 
@@ -39,6 +46,7 @@ export default async function NavBar() {
          
             
           </Link>
+        
         
         
         </div>
