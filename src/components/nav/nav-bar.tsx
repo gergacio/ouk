@@ -20,20 +20,32 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
+                  <div className=" p-1 bg-[#E85A2B] text-white border border-solid text-3xl">Ouk.</div> 
 
                 <div>
                 
+                                         <p className=" p-0.5 bg-[#E85A2B] text-white  text-xs">understanding </p>
+
+                             <p className=" p-0.5 bg-[#E85A2B] text-white  text-xs"> knowledge</p>
              
                 </div>
+                <div>
+
+              
+ 
             
+           
+                    
+                    
+
+
+
+                </div>
 
 
 
 
 
-                  <span className="m-2 p-2 bg-[#E85A2B] text-white border border-solid text-2xl">Ouk.</span> 
-
-                    <p>understanding knowledge</p>
                
                   
 
@@ -92,8 +104,6 @@ export default async function NavBar() {
        
       </div>
      
-           <p className="m-2 p-2 bg-[#FA003F] text-white border-solid text-l font-bold"></p>
-                       <p className="m-2 p-2 bg-[#E85A2B] text-white border-solid text-l font-bold"></p>
 
         
 
