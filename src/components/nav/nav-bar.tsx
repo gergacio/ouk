@@ -24,9 +24,13 @@ export default async function NavBar() {
 
                 <div>
                 
-                                         <p className=" p-0.5 bg-[#E85A2B] text-white  text-xs">understanding </p>
+                                         <p className=" p-0.5  bg-white text-[#E85A2B]  text-xs">understanding </p>
 
-                             <p className=" p-0.5 bg-[#E85A2B] text-white  text-xs"> knowledge</p>
+
+
+
+                             <p className=" p-0.5 bg-white text-[#E85A2B]  text-xs"> knowledge</p>
+
              
                 </div>
                 <div>
