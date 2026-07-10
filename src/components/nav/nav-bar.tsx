@@ -20,12 +20,13 @@ export default async function NavBar() {
             href="/"
             className="font-bold text-xl tracking-tight text-gray-900"
           >
-                  <div className=" p-1 bg-[#E85A2B] text-white border border-solid text-3xl">Ouk.</div> 
+            
+                 <div className=" p-1 bg-[#E85A2B] text-white border border-solid text-3xl"> ouk</div> 
 
                 <div className="border border-solid border-[#E85A2B]">
 
                 
-                                         <p className=" p-0.5  bg-white text-[#E85A2B]  text-xs">guidance  </p>
+                                         <p className=" p-0.5  bg-white text-[#E85A2B]  text-xs">Ꙋ guidance  </p>
 
 
 
@@ -47,6 +48,7 @@ export default async function NavBar() {
 
 
                 </div>
+           
 
 
 
@@ -71,7 +73,7 @@ export default async function NavBar() {
   
     
         <div>
-     
+          <h2>HANDWRITTEN NOTES</h2>
         </div>
    
          
