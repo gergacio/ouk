@@ -73,7 +73,8 @@ export default async function NavBar() {
   
     
         <div>
-          <h2>HANDWRITTEN NOTES</h2>
+ 
+
         </div>
    
          
