@@ -21,49 +21,18 @@ export default async function NavBar() {
             className="font-bold text-xl tracking-tight text-gray-900"
           >
             
-                 <div className=" p-1 bg-[#E85A2B] text-white border border-solid text-3xl"> ouk</div> 
+                 <div > <span className=" p-1 bg-[#E85A2B] text-white border border-solid text-2xl">OUK</span> </div> 
+
 
                 <div className="border border-solid border-[#E85A2B]">
 
                 
-                                         <p className=" p-0.5  bg-white text-[#E85A2B]  text-xs">Ꙋ guidance  </p>
-
-
-
-
-
-
-
+                <p className=" p-0.5  bg-[#E85A2B] text-white  text-[.7rem]"> guidance<span className="p-0.6 text-[1rem]"> Ꙋ</span>  </p>
              
                 </div>
-                <div>
-
-              
- 
-            
+         
            
-                    
-                    
-
-
-
-                </div>
-           
-
-
-
-
-
-               
-                  
-
-
-
-
         
-         
-    
-         
             
           </Link>
         
@@ -72,14 +41,12 @@ export default async function NavBar() {
         </div>
   
     
-        <div>
- 
-
-        </div>
    
-         
+   
+      
 
         <NavigationMenu>
+              
         
           <NavigationMenuList className="flex items-center gap-2">
             {user ? (
