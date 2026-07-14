@@ -27,7 +27,8 @@ export default async function NavBar() {
                 <div className="border border-solid border-[#E85A2B]">
 
                 
-                <p className=" p-0.5  bg-[#E85A2B] text-white  text-[.7rem]"> guidance<span className="p-0.6 text-[1rem]"> Ꙋ</span>  </p>
+                <p className=" p-0.5  bg-[#E85A2B] text-white  text-[.6rem]"><span className="p-0.6 text-[1rem]"> Ꙋ</span>  guidance </p>
+
              
                 </div>
          
