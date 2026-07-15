@@ -21,13 +21,14 @@ export default async function NavBar() {
             className="font-bold text-xl tracking-tight text-gray-900"
           >
             
-                 <div > <span className=" p-1 bg-[#E85A2B] text-white border border-solid text-2xl">OUK</span> </div> 
+                 <div > <span className=" p-1 bg-[#FA003F] text-white border border-solid text-2xl">OUK</span> </div> 
 
 
-                <div className="border border-solid border-[#E85A2B]">
+
+                <div className="border border-solid border-[#FA003F]">
 
                 
-                <p className=" p-0.5  bg-[#E85A2B] text-white  text-[.6rem]"><span className="p-0.6 text-[1rem]"> Ꙋ</span>  guidance </p>
+                <p className=" p-0.5  bg-[#FA003F] text-white  text-[.6rem]"><span className="p-0.6 text-[1rem]"> Ꙋ</span>  guidance </p>
 
              
                 </div>
